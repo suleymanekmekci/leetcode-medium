@@ -39,7 +39,7 @@
 class minAddToMakeValid {
     public int minAddToMakeValid(String S) {
         String[] brackets = S.split("");
-        Stack bracketStack = new Stack();
+        Stack<String> bracketStack = new Stack<>();
         if (S.length() == 0) {
             return 0;
         }
